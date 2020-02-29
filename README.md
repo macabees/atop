@@ -1,13 +1,13 @@
-#Atop (Performance Monitor)
-##Atop is an ASCII full-screen performance monitor for Linux that is capable of reporting the activity of all processes, with logging.
+# Atop (Performance Monitor)
+## Atop is an ASCII full-screen performance monitor for Linux that is capable of reporting the activity of all processes, with logging.
 
 ## Atop (Project Info)
 [Website](https://www.atoptool.nl/)
 
-##Docker Hub
+## Docker Hub
 [Website](https://hub.docker.com/r/macabees/atop/)
 
-##Build image
+## Build image
 `$ docker build -t macabees/atop:latest .`
 
 ## Docker Push
@@ -15,5 +15,5 @@
 
 Note: requires `docker login`
 
-##Run image
+## Run image
 `$ docker run -it --rm macabees/atop`
