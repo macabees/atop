@@ -16,4 +16,8 @@ Atop is an ASCII full-screen performance monitor for Linux that is capable of re
 Note: requires `docker login`
 
 ## Run image
-`$ docker run -it --rm macabees/atop`
+`$ docker run -it --rm --name atop --pid=host macabees/atop`
+
+## Help
+docker run -it --rm macabees/atop --help
+
